@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/albumdiwen" >
+
+    <GridView
+        android:id="@+id/albums" android:numColumns="2" android:stretchMode="columnWidth"
+        style="@style/ImageGrid_Padding"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/imgInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="130dip"
+        android:src="@drawable/faceinfo"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/albums_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="42dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/line"
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:visibility="gone" />
+
+    <include layout="@layout/title_bar" />
+
+    <include layout="@layout/picture_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/infolayout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/info"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/infoImg"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/info_frame" />
+    </LinearLayout>
+
+    <FrameLayout       
+        android:layout_width="200dp" android:id="@+id/firstInfoLayout"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/info"
+        android:visibility="gone" >
+
+        <TextView android:padding="10dp"  android:id="@+id/firstInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"           
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+</RelativeLayout>

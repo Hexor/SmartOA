@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OnscreenActionIcon">
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">13dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">3dip</item>
+    </style>
+
+    <style name="LayoutSty">
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingTop">20dip</item>
+        <item name="android:paddingBottom">10dip</item>
+    </style>
+
+    <style name="ImageGrid">
+        <item name="android:fadingEdgeLength">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:numColumns">2</item>
+    </style>
+
+    <style name="ImageGrid_Padding" parent="@style/ImageGrid">
+        <item name="android:paddingTop">48.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+
+    <style name="IconButton_Base">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="IconButton" parent="@style/IconButton_Base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="IconButton2" parent="@style/IconButton">
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="ToolBar_Base">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/toolbar_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ToolBar" parent="@style/ToolBar_Base">
+        <item name="android:paddingLeft">1.0dip</item>
+        <item name="android:paddingRight">1.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dip</item>
+    </style>
+
+    <style name="ToolBar_Top" parent="@style/ToolBar">
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="ToolBar_Bottom" parent="@style/ToolBar">
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#565656</item>
+    </style>
+
+    <style name="customTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <style name="MyProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_medium</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">35dip</item>
+        <item name="android:maxWidth">35dip</item>
+        <item name="android:minHeight">35dip</item>
+        <item name="android:maxHeight">35dip</item>
+    </style>
+
+    <style name="FeedbackEditText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">@color/lightgrey</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/feedback_edit</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">40.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>  
+    
+    <style name="ShadowButtonText">
+   	 	<item name="android:textColor">@color/white</item>
+   	 	<item name="android:textSize">20sp</item>
+    	<item name="android:shadowColor">@color/black</item>
+    	<item name="android:shadowDx">2</item>
+    	<item name="android:shadowDy">2</item>
+    	<item name="android:shadowRadius">2</item>
+    </style> 
+    
+    <style name="TopButton_Base">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/top_btn</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+    
+    <style name="TopButton_Left" parent="@style/TopButton_Base">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+     
+    <style name="TopButton_Right" parent="@style/TopButton_Base">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+    <style name="TitleCenterText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>    
+</resources>

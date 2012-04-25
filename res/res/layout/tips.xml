@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical" >
+
+     <LinearLayout android:id="@+id/title_bar" style="@style/ToolBar_Top"
+	>	
+	
+   	    <RelativeLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1.0">
+				
+			<Button android:id="@+id/tip_return_button" 
+		   		android:text="@string/topbtn_back"
+		   		style="@style/TopButton_Left"	
+		   		/>
+					
+			<TextView android:text="@string/tips"
+				style="@style/TitleCenterText"/>
+
+		</RelativeLayout> 	    			
+	</LinearLayout>
+
+     
+   	<ScrollView
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:gravity="center_horizontal"
+	  android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent">
+	    	
+		  	<TextView 
+		  		android:textAppearance="@android:attr/textAppearanceLarge"
+		    	android:id="@+id/tip_text"
+		     	android:layout_width="fill_parent" 
+		     	android:layout_height="fill_parent"
+		     	android:layout_gravity="center_horizontal"
+		     	android:gravity="left" 
+		     	android:layout_marginTop="10dp"
+		     	android:layout_marginLeft="12dp"
+	 			android:layout_marginRight="12dp"
+		     	android:textSize="15.0sp"/>
+	
+	</ScrollView>	
+
+</LinearLayout>

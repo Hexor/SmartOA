@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ViewFlipper android:layout_width="fill_parent" android:layout_height="fill_parent" 
+        android:id="@+id/flipper" android:flipInterval="500"/>  
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dip" >  
+
+        <ImageView
+            android:id="@+id/intro1"  android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selected" />
+
+        <ImageView
+            android:id="@+id/intro1_un"  android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unselected"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/intro2_un"  android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unselected" />
+
+        <ImageView
+            android:id="@+id/intro2"  android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selected"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/intro3_un"  android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unselected" />
+
+        <ImageView
+            android:id="@+id/intro3"  android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selected"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/intro4_un"    android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:src="@drawable/unselected" />
+
+        <ImageView
+            android:id="@+id/intro4"  android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selected"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>

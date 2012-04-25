@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/multi" android:title="@string/multi" />
+   <item android:id="@+id/cancelmulti" android:title="@string/cancelmulti" android:visible="false"/>
+   <item  android:id="@+id/nothim"  android:title="@string/nothim" />
+   <item  android:id="@+id/notface"  android:title="@string/notface" />
+   <item  android:id="@+id/set_as"  android:title="@string/set_as" android:enabled="false">
+       <menu>
+           <item android:id="@+id/set_cover" android:title="@string/sethead"/>
+           <item android:id="@+id/set_head" android:title="@string/setcontact"/>
+       </menu>
+   </item>
+<!--    <item  android:id="@+id/sethead"  android:title="@string/sethead" android:enabled="false"/> -->
+</menu>

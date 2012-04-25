@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:orientation="horizontal"
+	android:layout_height="wrap_content">
+	<RelativeLayout android:layout_width="wrap_content"
+		android:paddingBottom="5dip" android:paddingTop="5dip"
+		android:paddingLeft="5.0dip" android:layout_height="wrap_content"
+		android:layout_centerVertical="true">
+		<FrameLayout android:layout_width="wrap_content"
+			android:paddingLeft="5.0dip" android:id="@+id/flayout"
+			android:layout_height="wrap_content" android:layout_centerVertical="true">
+			<ImageView android:id="@+id/thumbnail" android:src="@drawable/grid_frame"
+				android:layout_width="100dip" android:layout_height="100dip"
+				android:scaleType="fitCenter"></ImageView>
+			<!--  <ImageView android:id="@+id/selecton" android:src="@drawable/btn_check_buttonless_on"
+				android:layout_gravity="bottom|right" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:visibility="gone" />
+			<ImageView android:id="@+id/selectoff" android:src="@drawable/btn_check_buttonless_off"
+				android:layout_gravity="bottom|right" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:visibility="gone" />-->
+		</FrameLayout>
+	</RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:gravity="center_vertical" android:paddingLeft="10dip"
+		android:paddingTop="10dip" android:layout_height="wrap_content"
+		android:orientation="vertical">
+		"
+		<TextView android:id="@+id/title" android:textSize="18sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:singleLine="true"  android:textColor="@color/gray" />
+		<!-- <TextView android:id="@+id/facenum" android:textSize="10sp" android:paddingTop="3dip" 
+			android:singleLine="true" android:text="共有10张人脸" android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" android:textColor="#ffffffff"/> -->
+		<TextView android:id="@+id/date" android:textSize="15sp"
+			android:paddingTop="3dip" android:singleLine="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/gray" />
+		<TextView android:id="@+id/path" android:textSize="15sp"
+			android:paddingTop="3dip" android:singleLine="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/gray" />
+	</LinearLayout>
+</LinearLayout>  

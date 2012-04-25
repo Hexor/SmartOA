@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/newcontact" android:onClick="onClick"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/add"
+            android:drawablePadding="5dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip"
+            android:text="@string/createcontact"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/recontact" android:onClick="onClick"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/recontact"
+            android:drawablePadding="5dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip"
+            android:text="@string/recontact"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/albumcontact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/oname"
+            android:drawablePadding="5dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="10dip"
+            android:text="@string/namealbum"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:src="@drawable/line" />
+
+
+</LinearLayout>

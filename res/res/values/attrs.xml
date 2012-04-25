@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <declare-styleable name="IconIndicator">
+        <attr name="icons" format="reference" />
+        <attr name="modes" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="IconListPreference">
+        <attr name="icons" />
+    </declare-styleable>
+    <declare-styleable name="EvenlySpacedLayout">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <!-- Weather we keep the space in both ends -->
+        <attr name="keepEndSpace" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="scrollbar">
+      <attr name="android:background"/>
+    <attr name="android:clickable"/>
+    <attr name="android:contentDescription"/>
+    <attr name="android:drawingCacheQuality"/>
+    <attr name="android:duplicateParentState"/>
+    <attr name="android:fadeScrollbars"/>
+    <attr name="android:fadingEdge"/>
+    <attr name="android:fadingEdgeLength"/>
+    <attr name="android:fitsSystemWindows"/>
+    <attr name="android:focusable"/>
+    <attr name="android:focusableInTouchMode"/>
+    <attr name="android:hapticFeedbackEnabled"/>
+    <attr name="android:id"/>
+    <attr name="android:isScrollContainer"/>
+    <attr name="android:keepScreenOn"/>
+    <attr name="android:longClickable"/>
+    <attr name="android:minHeight"/>
+    <attr name="android:minWidth"/>
+    <attr name="android:nextFocusDown"/>
+    <attr name="android:nextFocusLeft"/>
+    <attr name="android:nextFocusRight"/>
+    <attr name="android:nextFocusUp"/>
+    <attr name="android:onClick"/>
+    <attr name="android:padding"/>
+    <attr name="android:paddingBottom"/>
+    <attr name="android:paddingLeft"/>
+    <attr name="android:paddingRight"/>
+    <attr name="android:paddingTop"/>
+    <attr name="android:saveEnabled"/>
+    <attr name="android:scrollX"/>
+    <attr name="android:scrollY"/>
+    <attr name="android:scrollbarAlwaysDrawHorizontalTrack"/>
+    <attr name="android:scrollbarAlwaysDrawVerticalTrack"/>
+    <attr name="android:scrollbarDefaultDelayBeforeFade"/>
+    <attr name="android:scrollbarFadeDuration"/>
+    <attr name="android:scrollbarSize"/>
+    <attr name="android:scrollbarStyle"/>
+    <attr name="android:scrollbarThumbHorizontal"/>
+    <attr name="android:scrollbarThumbVertical"/>
+    <attr name="android:scrollbarTrackHorizontal"/>
+    <attr name="android:scrollbarTrackVertical"/>
+    <attr name="android:scrollbars"/>
+    <attr name="android:soundEffectsEnabled"/>
+    <attr name="android:tag"/>
+    <attr name="android:visibility"/>
+
+</declare-styleable>
+    
+</resources>

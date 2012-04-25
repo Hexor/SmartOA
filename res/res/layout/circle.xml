@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        style="@style/ToolBar_Top" >
+
+        <Button 
+            android:layout_margin="5dp"
+            android:id="@+id/finish"
+            style="@style/TopButton_Left"
+            android:text="@string/finish" >
+        </Button>
+
+        <TextView
+            style="@style/TitleCenterText"
+            android:text="@string/circle" />
+
+        <Button 
+            android:padding="5dp"
+            android:id="@+id/circle"
+            style="@style/TopButton_Right"
+            android:text="@string/circle" >
+        </Button>
+
+        <!--
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dip"
+            android:background="@drawable/button_bg_selector"
+            android:text="@string/delete"
+            android:textColor="@color/white" >
+        </Button>
+        -->
+    </RelativeLayout>
+
+    <view
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:layout_centerInParent="true"
+        android:background="#55000000"
+        class="com.snda.album.CropImageView"
+        android:scaleType="matrix" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+	android:id="@+id/root" android:layout_width="match_parent"
+	android:background="@drawable/albumdiwen" android:layout_height="match_parent">
+	<RelativeLayout android:id="@+id/title_bar" style="@style/ToolBar_Top">
+		<TextView android:textSize="18sp" android:textColor="@android:color/white"
+			android:ellipsize="marquee" 
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text="关联联系人" />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/editlayout"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">		
+		<Button android:id="@+id/addcontact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dip"
+		android:layout_alignParentRight="true"	android:background="@drawable/add_button"/>
+		<EditText android:id="@+id/searchkey" android:hint="请输入人名，拼音或首字母搜索"  android:layout_toLeftOf="@id/addcontact"
+			android:layout_width="fill_parent" android:layout_height="48dip" android:background="@android:drawable/editbox_background_normal"/>		
+	</RelativeLayout>
+	<LinearLayout   android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@color/halfgray">
+          <TextView android:text="全部联系人"
+                android:id="@+id/contacttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"               
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="18.0sp" />
+ 	</LinearLayout>
+	<ListView android:id="@+id/contact_list" android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		android:layout_marginTop="5dip" android:dividerHeight="1dip" android:divider="@drawable/line"
+		android:cacheColorHint="#00000000" />
+</LinearLayout>

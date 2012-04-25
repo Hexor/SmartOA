@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:id="@+id/aboutsmartalbum" 
+	android:background="#F5F5F5"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent">
+	
+   	<LinearLayout android:id="@+id/title_bar" style="@style/ToolBar_Top"
+	xmlns:android="http://schemas.android.com/apk/res/android">	
+	
+   	    <RelativeLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1.0">		
+					
+			<Button android:id="@+id/about_return_button" 
+		   		android:text="@string/topbtn_back"
+		   		style="@style/TopButton_Left"	
+		   		/>
+
+			<TextView android:text="@string/about"
+				style="@style/TitleCenterText"/>
+				
+		</RelativeLayout> 	    			
+	</LinearLayout>
+    
+ 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+ 	    android:layout_below="@id/title_bar"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+ 	    <ImageView android:id="@+id/about_logo" 
+ 	     android:background="@drawable/about_logo"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" 
+		android:adjustViewBounds="true" 
+		android:layout_marginTop="20dp"/>
+ 	    
+ 	    <TextView android:id="@+id/about_appname" 
+ 	    android:textSize="35sp" 
+ 	    android:layout_gravity="center_horizontal"
+		android:layout_marginTop="5dip" 
+		android:text="@string/app_name"
+		android:layout_width="wrap_content" 
+		android:textColor="#000000" 
+		android:layout_height="wrap_content"
+		 />
+ 	    
+ 	    <ImageView android:id="@+id/about_intro_text" 
+ 	     	android:background="@drawable/about_intro_text"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal" 
+			android:adjustViewBounds="true" 
+			android:layout_marginTop="8dp"/>
+    
+ 	    <TextView android:id="@+id/about_version" 
+	 	    android:textSize="15sp" 
+	 	    android:layout_gravity="center_horizontal"
+			android:layout_marginTop="8dip" 
+			android:layout_width="wrap_content" 
+			android:textColor="#636363"
+			android:layout_weight="1.0" 
+			android:layout_height="wrap_content" />
+     
+		<TextView android:id="@+id/about_moreinfo"
+		    android:textSize="15sp" 
+		    android:layout_marginTop="18dip" 
+		    android:layout_gravity="center_horizontal"
+			android:text="@string/more_information" 
+			android:layout_width="wrap_content"
+			android:layout_weight="0.5" 
+			android:textColor="#636363"
+			android:layout_height="wrap_content" />
+
+	 	<TextView android:textSize="15sp" 
+		    android:layout_gravity="center_horizontal"
+			android:text="@string/relation_qq" 
+			android:layout_width="wrap_content"
+			android:layout_weight="0.5" 
+			android:textColor="#636363"
+			android:layout_height="wrap_content" />
+ 	
+	 	<RelativeLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_weight="0.5"
+			android:layout_gravity="center_horizontal">
+			
+			<TextView android:id="@+id/about_weibo"
+			    android:textSize="15sp" 
+			    android:layout_gravity="center_horizontal"
+				android:text="@string/about_weibo" 
+				android:layout_width="wrap_content"
+				android:textColor="#636363"
+				android:layout_height="wrap_content" />
+			
+			<ImageButton android:id="@+id/about_weibo_btn" 
+		   		style="@style/IconButton"
+		   		android:layout_width="wrap_content" 
+			 	android:layout_height="wrap_content"  
+				android:layout_toRightOf="@id/about_weibo"
+				android:layout_alignBottom="@id/about_weibo"
+			 	android:background="@drawable/about_weibo"/> 
+			
+		</RelativeLayout>
+		
+   	    <RelativeLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_weight="0.5"
+			android:layout_gravity="center_horizontal">
+		
+			<TextView android:id="@+id/about_homepage"
+			    android:textSize="15sp" 
+				android:text="@string/about_homepage" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#636363"
+				/>
+
+ 	        <ImageButton android:id="@+id/about_homepage_btn" 
+		   		style="@style/IconButton"
+		   		android:layout_width="wrap_content" 
+			 	android:layout_height="wrap_content"  
+				android:layout_toRightOf="@id/about_homepage"
+				android:layout_alignBottom="@id/about_homepage"
+			 	android:background="@drawable/about_homepage"/> 
+	
+		</RelativeLayout>
+    
+		<TextView  android:textSize="15sp" 
+		    android:layout_marginTop="25dip" 
+		    android:layout_gravity="center_horizontal"
+			android:text="@string/sndahave" 
+			android:layout_width="wrap_content"
+			android:layout_weight="0.8"
+			 android:textColor="#636363"
+			android:layout_height="wrap_content" />   
+ 	    
+	</LinearLayout>   
+ 
+	
+</LinearLayout> 
+
+    
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:id="@+id/item1" android:background="@color/white"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<ImageView android:id="@+id/icon" android:background="@drawable/logo"
+		android:layout_width="100dip" android:layout_height="100dip"
+		android:layout_gravity="center_horizontal" android:adjustViewBounds="true" />
+	<TextView android:id="@+id/text" android:textSize="22sp" android:layout_gravity="center_horizontal"
+		android:layout_marginTop="5dip" android:text="@string/app_name"
+		android:layout_width="wrap_content" android:layout_weight="1.0"
+		android:textColor="@color/black" android:layout_height="wrap_content" />
+	<TextView android:textSize="18sp" android:layout_marginTop="3dip" android:layout_gravity="center_horizontal"
+		android:id="@+id/release_version" android:layout_width="wrap_content"
+		android:layout_weight="1.0" android:textColor="@color/gray"
+		android:layout_height="wrap_content" />
+	<TextView android:textSize="18sp" android:layout_marginTop="3dip" android:layout_gravity="center_horizontal"
+		android:text="@string/more_information" android:layout_width="wrap_content"
+		android:layout_weight="1.0" android:textColor="@color/black"
+		android:layout_height="wrap_content" />
+	<TextView android:textSize="18sp" android:layout_marginTop="3dip" android:layout_gravity="center_horizontal"
+		android:text="@string/relation_weibo" android:layout_width="wrap_content"
+		android:layout_weight="1.0" android:textColor="@color/black"
+		android:layout_height="wrap_content" />
+	<TextView android:textSize="18sp" android:layout_marginTop="3dip" android:layout_gravity="center_horizontal"
+		android:text="@string/relation_qq" android:layout_width="wrap_content"
+		android:layout_weight="1.0" android:textColor="@color/black"
+		android:layout_height="wrap_content" />
+	<TextView  android:textSize="15sp" android:layout_marginTop="3dip" android:layout_gravity="center_horizontal"
+		android:text="@string/sndahave" android:layout_width="wrap_content"
+		android:layout_weight="1.0" android:textColor="@color/black"
+		android:layout_height="wrap_content" />
+	
+</LinearLayout> -->
+
+

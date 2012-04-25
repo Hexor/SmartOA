@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/fastloginbg"
+     >
+
+    <LinearLayout 
+		    android:gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="5"
+			 >
+	</LinearLayout>
+	
+    <LinearLayout 
+		    android:gravity="center_vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10.0dip" 
+			android:layout_marginRight="10.0dip"
+			android:layout_weight="0.1"
+			 >
+			 
+			<Button android:id="@+id/btn_fast_login"
+			    android:background="@drawable/logandreg_btn"
+			    android:text="一键注册"
+				style="@style/ShadowButtonText"			
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				/>
+
+			
+	</LinearLayout>
+		
+     <LinearLayout android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:gravity="center_vertical"
+		android:layout_weight="0.1"
+		>
+			
+			<CheckBox  
+			android:id="@+id/introliencesndacheck" 
+			android:layout_width="28dp" 
+			android:layout_height="28dp"
+			android:layout_marginBottom="1dp"
+     		android:checked="true"
+     		android:button="@drawable/checkbox_selector"     		
+     		>
+			</CheckBox>
+	
+			<ImageButton android:id="@+id/introbtnliencesnda" 
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"
+			 android:background="@drawable/liences_btn"
+			  >
+			</ImageButton>
+
+			    
+	</LinearLayout>
+
+    <LinearLayout android:gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			 >
+        
+        
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:orientation="vertical"
+    android:layout_height="fill_parent" android:background="@drawable/albumdiwen" >
+
+    <RelativeLayout       
+        android:id="@+id/title_bar"
+        style="@style/ToolBar_Top" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/addname"
+            android:textColor="@android:color/white"
+            android:textSize="18.0sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imgLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip">
+
+        <ImageView  android:layout_centerHorizontal="true"
+            android:id="@+id/head"
+            android:layout_width="160dip"
+            android:layout_height="160dip"
+            android:background="@drawable/grid_frame"
+            android:scaleType="fitCenter" >
+        </ImageView>
+
+        <LinearLayout  android:layout_centerHorizontal="true" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_below="@id/head"  android:layout_marginTop="5dip" >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="150dp" android:maxLength="20"
+                android:layout_height="48dip" 
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="@string/addname" >
+            </EditText>
+            <Button android:id="@+id/confirm" android:layout_width="60dp" android:layout_height="wrap_content" 
+			android:background="@drawable/button_lv_selector"/>
+        </LinearLayout>
+    </RelativeLayout>
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LayoutSty">	   
+	         <TextView  android:id="@+id/txtInfo" android:background="@color/nameup"
+            android:layout_width="fill_parent" android:ellipsize="middle"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"         
+            android:singleLine="true" android:gravity="center"
+            android:text="@string/selectfrompeople"
+            android:textColor="@android:color/black"
+            android:textSize="18.0sp" />	   
+	    <Gallery android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/txtInfo" android:paddingTop="10dip"
+	        android:id="@+id/galleryInfo" android:background="@color/namedown" 
+	        android:spacing="3dip" android:paddingLeft="5dip"></Gallery>
+	</RelativeLayout>
+</LinearLayout>

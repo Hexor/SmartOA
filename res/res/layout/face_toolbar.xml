@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/footer_organize"
+	android:orientation="horizontal" 
+	android:visibility="gone" style="@style/ToolBar_Bottom"	>
+	<ImageView android:id="@+id/multi" android:src="@drawable/multisel"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/cancelmulti" android:src="@drawable/deselectall"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/delete" android:src="@drawable/delete"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/share" android:src="@drawable/share"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/more" android:src="@drawable/more"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/nothim" android:src="@drawable/nothim"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/notface" android:src="@drawable/notface"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/setas" android:src="@drawable/setas"
+		style="@style/IconButton2" />
+</LinearLayout>

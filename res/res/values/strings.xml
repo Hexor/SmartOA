@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能相册</string>
+    <string name="waiting">请等待</string>
+    <string name="syncprovider">相册数据</string>
+    <string name="downloadVer">正在下载新版程序包</string>
+    <string name="upVersion">智能相册客户端版本更新 </string>
+    <string name="upVerInfo">智能相册现在有新版本了，是否要马上安装？ </string>
+    <string name="yes">是 </string>
+    <string name="no">否 </string>
+    <string name="circle">圈人</string>
+    <string name="finish">完成</string>
+    <string name="ungroup">未命名组</string>
+    <string name="addname">添加姓名</string>
+    <string name="notalert">不再提醒</string>
+    <string name="newversion">当前已是最新版本!</string>
+    <string name="pref_gallery_confirm_delete_title">"确认删除"</string>
+    <string name="netalert">您当前使用的是非WLAN网络，是否继续上传人脸照片至服务器进行人脸识别？如想使用当前默认网络环境，请到设置里更改！</string>
+    <string name="createnewone">通讯录中没有匹配的联系人，创建新的联系人?</string>
+    <string name="relecontact">是否与以下已命名组合并</string>
+    <string name="recontact">关联联系人</string>
+    <string name="mocontact">重新关联联系人</string>
+    <string name="createcontact">创建新联系人</string>
+    <string name="namealbum">仅对此相册命名</string>
+    <string name="selectfrompeople">添加到已有人物分组</string>
+    <string name="more_information">更多信息请关注</string>
+    <string name="about_weibo">新浪微博：</string>
+    <string name="relation_qq">QQ群：182451564</string>
+    <string name="sndahave">©2011-2012盛大网络版权所有</string>
+    <string name="ok">确定</string>
+    <string name="cannel">取消</string>
+    <string name="networkbad">网络不通</string>
+    <string name="setNetwork">请先设置网络连接 </string>
+    <string name="camera_photos">本机相册</string>
+    <string name="albumai">智能相册</string>
+    <string name="about">关于我们</string>
+    <string name="settings">设置</string>
+    <string name="show_in_map">在地图上显示</string>
+    <string name="rename">重命名</string>
+    <string name="set_as">设为</string>
+    <string name="share">分享</string>
+    <string name="delete">删除</string>
+    <string name="deleting">"删除中..."</string>
+    <string name="details">详情</string>
+    <string name="sort">排序</string>
+    <string name="show_hidden">显示隐藏项</string>
+    <string name="noshow_hidden">不显示隐藏项</string>
+    <string name="multi_select">多选模式</string>
+    <string name="save">保存</string>
+    <string name="hide">隐藏</string>
+    <string name="unhide">取消隐藏</string>
+    <string name="hidepeople">隐藏人物信息</string>
+    <string name="showpeople">显示人物信息</string>
+    <string name="wait">"请稍候..."</string>
+    <string name="slide_show">"播放幻灯片"</string>
+    <string name="view">"查看"</string>
+    <string name="not_enough_space">"共享存储设备空间已满。"</string>
+    <string name="gallery_camera_bucket_name">"相机照片"</string>
+    <string name="all_images">"所有照片"</string>
+    <string name="details_panel_title">"详细信息"</string>
+    <string name="details_file_path">"文件路径："</string>
+    <string name="details_file_size">"文件大小："</string>
+    <string name="details_file_type">"文件类型："</string>
+    <string name="details_image_resolution">"分辨率："</string>
+    <string name="details_image_make">"制造商："</string>
+    <string name="details_image_model">"型号："</string>
+    <string name="details_image_whitebalance">"白平衡："</string>
+    <string name="details_image_latitude">"GPS 纬度："</string>
+    <string name="details_image_longitude">"GPS 经度："</string>
+    <string name="details_image_location">"地点："</string>
+    <string name="details_duration">"持续时间："</string>
+    <string name="details_date_taken">"拍摄日期："</string>
+    <string name="details_frame_rate">"帧频："</string>
+    <string name="details_bit_rate">"比特率："</string>
+    <string name="details_codec">"编解码器："</string>
+    <string name="details_format">"格式："</string>
+    <string name="details_ok">"确定"</string>
+    <string name="details_detect">已检测：</string>
+    <string name="setImage">"将照片设置为"</string>
+    <string name="sendImage">"照片分享方式"</string>
+    <string name="firstnameinfo">您可以按返回按钮回到上一层查看标记的人物相册</string>
+    <string name="preparing_sd">"正在准备共享存储设备..."</string>
+    <string name="no_storage">"请先装载共享存储设备，再使用相机。"</string>
+    <string name="multiselect_share">"分享"</string>
+    <string name="multiselect_delete">"删除"</string>
+    <string name="multiselect_cancel">"取消"</string>
+    <string name="crop_save_text">"保存"</string>
+    <string name="crop_discard_text">"舍弃"</string>
+    <string name="runningFaceDetection">"请稍候..."</string>
+    <string name="multiface_crop_help">"轻点一张脸开始裁剪。"</string>
+    <string name="wallpaper">"正在设置壁纸，请稍候..."</string>
+    <string name="savingImage">"正在保存照片..."</string>
+    <string name="pick_photos_gallery_title">"选择照片"</string>
+    <string name="photos_gallery_title">"图库"</string>
+    <string name="camera_play">"播放"</string>
+    <string name="camera_attach">"附件"</string>
+    <string name="camera_cancel">"取消"</string>
+    <string name="camera_toss">"删除"</string>
+    <string name="camera_share">"分享"</string>
+    <string name="multiselect">"编辑"</string>
+    <string name="camerasettings">"设置"</string>
+    <string name="confirmdel">将会删除此照片及所有检测到的脸，确认删除？</string>
+    <string name="categoryai">智能分类</string>
+    <string name="notface">非人脸</string>
+    <string name="nothim">不是Ta</string>
+    <string name="multi">全选</string>
+    <string name="cancelmulti">取消全选</string>
+    <string name="toastupload">分类需要时间，请耐心等待，分类完成后请在通知栏查看</string>
+    <string name="modifyname">改名</string>
+    <string name="nohide">取消隐藏</string>
+    <string name="more">更多</string>
+    <string name="setpaper">设为壁纸</string>
+    <string name="setcontact">设为联系人头像</string>
+    <string name="modifypicname">修改照片名</string>
+    <string name="sethead">设为封面</string>
+    <string name="findface">人脸检测还未完成，请稍后再点击智能分类</string>
+    <string name="uploadtitle">正在分析</string>
+    <string name="uploadmes">正在分析人脸特征，需要一定时间，请耐心等待</string>
+    <string name="nonewtitle">无需要检测的照片</string>
+    <string name="nonewmes">您的所有照片均已做完检测</string>
+    <string name="send_media_files">"媒体文件分享方式："</string>
+    <string name="gallery_camera_media_bucket_name">"相机媒体"</string>
+    <string name="register">注册</string>
+    <string name="login_name">"我们的智能分类服务在服务器进行，请登录盛大通行证"</string>
+    <string name="regist_name">"注册盛大通行证"</string>
+    <string name="forgetdlgmsg">"请访问 www.sdo.com 找回您的密码"</string>
+    <string name="nonosimcard">"设备中未检测到SIM卡。要使用智能相册的全部功能，请输入您的手机号码获取验证码进行登录："</string>
+    <string name="introducealbum">"欢迎使用智能相册\n\n智能相册是唯一一款支持人脸识别的手机端照片管理软件，可以自动识别照片中的人脸并进行归类，将识别出的人脸与通讯录进行关联后，更可以在看照片时点击照片中的人脸进行打电话、发短信等操作，赋予照片全新的生命！\n\n智能相册，让照片成为联络感情的载体。"</string>
+    <string name="networksetting">"设置网络"</string>
+    <string name="login_newwork_error">"您当前没有连接到任何网络。要使用智能相册的全部功能，请先连接网络。现在就去设置网络？"</string>
+    <string name="login_openapi_error">"处理失败，请检查网络或稍后重试"</string>
+    <string name="login_progressdlg_msg">"服务器验证中"</string>
+    <string name="login_server_error1">"服务器认证失败，请稍后再试"</string>
+    <string name="login_server_error2">"服务器未响应，请稍后再试"</string>
+    <string name="nosimlogin_login_fail">"登录失败"</string>
+    <string name="nosimlogin_login_fail_msg1">"您输入的手机号码有误，请确认"</string>
+    <string name="nosimlogin_login_fail_msg2">"您输入的验证码有误，请重新获取验证码"</string>
+    <string name="nosimlogin_login_fail_btn">"知道了"</string>
+    <string name="nosimlogin_validatecode_err1">"验证码有误,请重新输入！你还有"</string>
+    <string name="nosimlogin_validatecode_err2">"次机会"</string>
+    <string name="nosimlogin_logining">"盛大通行证登录中"</string>
+    <string name="nosimlogin_validatecode_send">"验证码短信已发出！"</string>
+    <string name="nosimlogin_input_validatecode">"请输入验证码"</string>
+    <string name="about_homepage">智能相册官方网站：</string>
+    <string name="feedback">意见反馈</string>
+    <string name="tips">帮助</string>
+    <string name="topbtn_back">返回</string>
+    
+    <string name="data">整数型:%1$d，浮点型：%2$.2f，字符串:%3$s</string>  
+    
+    
+    <string name="liencesnda">
+盛大通行证用户服务协议
+
+\n1. 特别提示
+\n1.1 盛大在线同意按照本协议的规定及其不时发布的操作规则提供基于互联网的相关服务(以下称“网络服务”)，为获得网络服务，服务使用人(以下称“用户”)同意本协议的全部条款并按照页面上的提示完成全部的注册程序。用户在进行注册程序过程中点击“同意”按钮即表示用户完全接受本协议项下的全部条款。 本协议下的条款可由盛大在线随时变更，用户须定期审阅本协议。协议条款一旦发生变动，盛大在线将会在盛大在线相关的页面上提示变更内容。变更后的协议在相关的页面上公布即有效代替原来的协议。用户如不同意盛大在线对本协议的所作的任何变更，应立即停止使用盛大在线提供的服务。如用户在本协议变更后继续使用盛大在线的服务，即视作用户已完全同意变更后的协议。用户可随时造访http://register.sdo.com查阅最新服务协议。用户在使用盛大在线提供的各项服务之前，应仔细阅读本服务协议，如用户不同意本服务协议及/或随时对其的修改，请停止使用盛大在线提供的服务。
+
+\n2. 服务内容
+\n2.1 盛大在线服务的具体内容由盛大在线根据实际情况提供，例如论坛(BBS)、聊天室、电子邮件、发表新闻评论等。盛大在线保留随时变更、中止或终止部分或全部网络服务的权利。 
+\n2.2 盛大在线在提供网络服务时，可能会对部分网络服务(例如网络游戏及其他电信增值服务)的用户收取一定的费用。在此情况下，盛大在线会在相关页面上做明确的提示。如用户不同意支付该等费用，则可不接受相关的网络服务。 
+\n2.3 用户理解：盛大在线仅提供相关的网络服务，除此之外与相关网络服务有关的设备(如电脑、调制解调器及其他与接入互联网有关的装置)及所需的费用(如为接入互联网而支付的电话费及上网费)均应由用户自行负担。
+\n2.4 用户应使用正版软件接受网络服务。
+\n2.5 盛大在线是专为无物流的文化和虚拟产品提供的数字发行平台，通过数据分发和支持系统、销售支付计费系统以及客户服务系统等，为用户获取数字内容产品提供优选渠道。用户理解盛大在线也会为其他互联网企业定制专业化的用户服务体系，即用户通过盛大在线获得的服务内容有可能来源于第三方企业，一旦用户接受该第三方企业提供的网络服务内容，则用户应当遵守该第三方企业对其服务做出的约定。如第三方企业接入盛大在线系统且其既有用户可以使用盛大在线提供的服务，则该既有用户即成为盛大在线的用户，其账号也自动成为盛大通行证账号。该既有用户同意亦将与在盛大在线系统中直接注册的用户一样遵守本协议的约定。但对于这些既有用户，盛大在线在服务过程中会仍然提供其已经熟悉的游戏账号充值界面，该过程仅为方便用户接受服务而设，既有用户与盛大在线之间的关系仍应受本协议的约定。
+\n2.6 关于用户付费的特别提示：
+\n(A) 在盛大在线系统中，用户通过任何支付手段（包括但不限于银行卡充值、实物卡充值、网吧充值、一点充充值、手机卡充值等）为其账号充值所直接获得的均为“盛大点券”（或盛大在线系统更新发布的其他支付工具）；
+\n(B) 盛大点券可以用于支付接入盛大在线系统的所有互联网应用及内容（包括第三方）的费用。一旦用户用其账号进入第三方企业的服务系统，则盛大在线会自动通过和第三方企业的技术合作，将该账号所剩余的盛大点券可以消费的该第三方系统自身的结算工具显示给用户；一旦用户退出该第三方服务系统，则在盛大在线系统中仍然可以显示尚未消费的盛大点券；
+\n(C) 为了尊重用户的消费习惯和符合用户体验习惯，用户在利用盛大在线系统提供的服务进行付费的过程中，可能出现直接获得其需要的第三方具体应用内容中的结算工具，而不是直接显示获得盛大点券的情况，用户理解并知晓盛大在线已经在后台技术系统内自动将盛大点券兑换为第三方系统自身的结算工具，用户为获取第三方具体应用内容而支付的费用均系通过第三方应用内容提供企业的自身系统的结算工具而非直接通过盛大点券进行结算的；
+\n(D) 第三方应用内容提供企业如果是网络游戏运营企业，则该第三方网络游戏运营企业可能会根据国家有关规定发行网络游戏虚拟货币，同时在游戏中设置游戏道具，用户可以根据自己的需要使用盛大点券。通常来说，在用户选择进入第三方网络游戏运营企业的系统后，盛大在线会自动将用户账号中剩余的盛大点券全部显示为可以消费的第三方网络游戏运营企业发行的网络游戏虚拟货币总量，盛大点券和它们的兑换比例将会明确公告给用户。即使用户可能感受到盛大点券和第三方网络游戏运营企业设置的游戏道具之间的直接存在对应关系，但在游戏程序之外的计费系统中，仍然是由盛大点券兑换成该第三方网络游戏运营企业发行的网络游戏虚拟货币，然后再将该网络游戏虚拟货币根据用户的需求转换为游戏内的道具。用户理解其对游戏道具的需求往往是消费的最终目的，盛大在线和第三方网络游戏运营企业合作对于付费过程的设置均为方便用户消费和符合用户体验习惯而设置，即使用户在整个消费第三方网络游戏运营企业过程中可能无法直接体验到其发行的网络游戏虚拟货币的存在，而事实上它们确实真实存在于网络游戏发行企业的系统中。用户理解并明确，用户在第三方网络游戏运营企业所运营的网络游戏中所购买的任何存在于网络游戏程序内的游戏道具均系通过兑换或支付该三方网络游戏运营企业自身发行的网络游戏虚拟货币而获得的，无论是从法律还是技术上均不是直接通过盛大点券进行结算的，游戏道具在任何情况下均无法通过盛大点券进行直接购买。
+\n(E) 用户理解并知晓，盛大在线不提供用户间交易盛大点券的平台化服务。用户间交易盛大点券系构成对本协议的违反，盛大在线有权在未经通知的情况下，采取相应适当措施，以确保盛大在线不提供用户间交易盛大点券的平台化服务。
+\n2.7 盛大在线有权不定时地向用户发送业务公告等信息，通过邮件或短信等方式。若收到短信后不愿再接受类似消息，请回复0000。
+\n
+\n3. 使用规则
+\n3.1 用户承诺以其真实身份注册成为盛大在线的用户，并保证所提供的个人身份资料信息真实、完整、有效，依据法令规定和本协议约定对所提供的信息承担相应的法律责任。盛大在线有权审查用户注册所提供的身份信息是否真实、有效。用户以其真实身份注册成为盛大在线用户后，需要修改所提供的个人身份资料信息的，盛大在线应当及时、有效地为其提供该项服务。
+\n3.2 用户注册成功后，盛大在线将给予每个用户一个用户账号及相应的密码。该用户账号和密码由用户负责保管。用户有义务妥善保管其账号及密码，并正确、安全地使用其账号及密码，并对登录后所持账号产生的行为依法享有权利和承担责任。盛大在线应积极地采取技术与管理等合理措施保障用户账号的安全、有效。任何一方未尽上述义务导致账号密码遗失、账号被盗等情形而给用户和他人的民事权利造成损害的，应当承担由此产生的法律责任。
+\n3.3 用户发现其账号或密码被他人非法使用或有使用异常的情况的，应及时根据盛大在线公布的处理方式通知盛大在线，并有权通知盛大在线采取措施暂停该账号的登录和使用。盛大在线在收到用户要求采取措施暂停其账号登录和使用的通知后，应当要求用户提供并核实与其注册身份信息相一致的个人有效身份信息。盛大在线核实用户所提供的个人有效身份信息与所注册的身份信息相一致的，应当及时采取措施暂停用户账号的登录和使用。盛大在线违反前述约定，未及时采取措施暂停用户账号的登录和使用，因此而给用户造成损失的，应当承担其相应的法律责任。用户没有提供其个人有效身份证件或者用户提供的个人有效身份证件与所注册的身份信息不一致的，盛大在线有权拒绝用户前述请求。
+\n3.4 用户为了维护其合法权益，向盛大在线提供与所注册的身份信息相一致的个人有效身份信息时，盛大在线应当为用户提供账号注册人证明、原始注册信息等必要的协助和支持，并根据需要向有关行政机关和司法机关提供相关证据信息资料。
+\n3.5 用户同意接受盛大在线通过电子邮件或其他方式向用户发送的商品促销或其他相关商业信息。
+\n3.6 用户在使用盛大在线服务过程中，必须遵循以下原则：
+\n(A) 遵守中国有关的法律和法规；
+\n(B) 不得为任何非法目的而使用网络服务系统；
+\n(C) 遵守所有与网络服务有关的网络协议、规定和程序；
+\n(D) 不得利用盛大在线服务系统进行任何可能对互联网的正常运转造成不利影响的行为；
+\n(E) 不得利用盛大在线服务系统传输任何骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料；
+\n(F) 不得利用盛大在线服务系统进行任何不利于盛大在线的行为；
+\n(G) 就盛大在线及合作商业伙伴的服务、产品、业务咨询应采取相应机构提供的沟通渠道，不得在公众场合发布有关盛大在线及相关服务的负面宣传。
+\n(H) 如发现任何非法使用用户账号或账号出现安全漏洞的情况，应立即通告盛大在线。
+\n3.7 用户使用根据本协议获得的用户账号和密码登录盛大在线的网站或接受其他盛大在线提供的服务项目时，应遵守该网站或服务项目的相关服务协议及使用守则，用户登录上述网站或接受上述服务项目时即视为对相关服务协议及使用守则的接受。
+\n
+\n4. 内容所有权
+\n4.1 盛大在线提供的网络服务内容可能包括：文字、软件、声音、图片、录象、图表等。所有这些内容受著作权法、商标法和其它法律法规的保护。
+\n4.2 用户只有在获得盛大在线或其他相关权利人的书面授权之后才能使用这些内容，而不能擅自复制、再造这些内容、或创造与内容有关的派生产品。
+\n
+\n5. 用户信息保护
+\n5.1 保护用户（特别是未成年人）的隐私是盛大在线的一项基本政策，因此，若父母（监护人）希望未成年人（尤其是十岁以下子女）得以使用本服务，必须以父母（监护人）名义申请注册，在接受本服务时，应以法定监护人身份加以判断本服务是否符合于未成年人。
+\n5.2在不透露单个用户隐私资料的前提下，盛大在线有权对整个用户数据库进行技术分析并对已进行分析、整理后的用户数据库进行商业上的利用。尽管盛大在线对用户的隐私权保护做了极大的努力，但是仍然不能保证现有的安全技术措施使用户的技术信息等不受任何形式的损失。
+\n5.3未经用户许可盛大在线不得向任何第三方公开或共享用户注册资料中的姓名、个人有效身份证件号码、联系方式、家庭住址等个人身份信息，但下列情况除外：
+\n5.3.1 用户或用户监护人授权盛大在线披露的；
+\n5.3.2 有关法令要求盛大在线披露的；
+\n5.3.3 司法机关或行政机关基于法定程序要求盛大在线提供的；
+\n5.3.4 盛大在线为了维护自己合法权益而向用户提起诉讼或者仲裁时；
+\n5.3.5 应用户监护人的合法要求而提供用户个人身份信息时；
+\n5.3.6 为维护社会公众的利益。
+\n5.4 为了帮助用户更快速的对人脸照片进行标记，智能相册客户端会通过网络将检测到的人脸照片上传到后台服务器进行人脸识别，并将识别结果返回给客户端使用户对同一人物的人脸照片仅需一次标记即可。盛大在线会采取可靠的、安全的技术手段，以确保这些信息不会外泄。新用户注册时，可能会产生一条短信费用，由运营商按照标准收取，智能相册不收取任何费用。
+\n
+\n6. 免责声明
+\n6.1 盛大通行证所有者不保证以下事宜：
+\n(i) 本服务将符合您的要求
+\n(ii) 本服务将不受干扰、及时提供、安全可靠或不会出错。
+\n6.2 用户明确同意其使用盛大在线服务所存在的风险将完全由其自己承担；因其使用盛大在线服务而产生的一切后果也由其自己承担，盛大在线对用户不承担任何责任。
+\n
+\n7. 服务变更、中断或终止
+\n7.1 如因系统维护或升级的需要而需暂停网络服务，盛大在线将尽可能事先进行通告。
+\n7.2 用户有发布违法信息、严重违背社会公德、以及其他违反法令禁止性规定的行为时，盛大在线有权立即终止对用户提供服务。
+\n7.3 用户在接受盛大在线服务时实施本协议中有明确约定或属于盛大在线事先明确告知的应被终止服务的禁止性行为的，盛大在线有权终止对用户提供服务。
+\n7.4 用户提供虚假注册身份信息，或实施违反本协议的行为，盛大在线采取中止措施应当通知用户并告知中止期间，中止期间应该是合理的，中止期间届满盛大在线应当及时恢复对用户的服务。
+\n7.5 盛大在线根据本条约定中止或终止对用户提供部分或全部服务的，盛大在线应负举证责任。
+\n7.6 除前款所述情形外，盛大在线同时保留在不事先通知用户的情况下随时中止或终止部分或全部网络服务的权利，对于所有服务的中断或终止而造成的任何损失，盛大在线无需对用户或任何第三方承担任何责任。
+\n7.7 如果您在注册盛大通行证后第一个月时间内或连续6个月时间内，没有使用过此盛大通行证(包括使用此盛大通行证登录游戏，登录网站，充值)，则该盛大通行证不会被系统保留。
+\n
+\n8. 违约赔偿
+\n8.1 用户同意保障和维护盛大在线及其他用户的利益，如因用户违反有关法律、法规或本协议项下的任何条款而给盛大在线或任何其他第三人造成损失，用户同意承担由此造成的损害赔偿责任。
+\n
+\n9. 法律管辖
+\n9.1 本协议的订立、执行和解释及争议的解决均应适用中华人民共和国法律。 
+\n9.2 如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均应向上海市浦东新区的人民法院提起诉讼。
+\n
+\n10.通知和送达
+\n10.1 本协议项下所有的通知均可通过重要页面公告、电子邮件或常规的信件传送等方式进行；该等通知于发送之日视为已送达收件人。
+\n
+\n11. 其他规定
+\n11.1 本协议构成双方对本协议之约定事项及其他有关事宜的完整协议，除本协议规定的之外，未赋予本协议各方其他权利。
+\n11.2 如本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。
+\n11.3 本协议中的标题仅为方便而设，不具法律或契约效果。
+
+\n特 别 声 明
+\n　　鉴于：我国《合同法》第39条规定：采用格式条款订立合同的，提供格式条款的一方应当遵循公平原则确定当事人之间的权利和义务，并采取合理的方式提请对方注意免除或者限制其责任的条款，按照对方的要求，对该条款予以说明。
+\n　　盛大在线在此依法做出特别声明如下：
+\n　　盛大在线采取合理的方式提请用户注意的义务将通过如下方式实现：在本协议中盛大在线以明确的足以引起用户注意的加重字体、斜体、下划线、颜色标记等合理方式提醒用户注意相关条款（需要强调的是，还包括用户应特别注意任何未明确标记的含有“不承担”、“免责”“不得”等形式用语的条款），该等条款的确认将导致用户在特定情况下的被动、不便、损失，请用户在确认同意本协议之前再次阅读上述条款。双方确认上述条款非属于《合同法》第40条规定的“免除其责任、加重对方责任、排除对方主要权利的”的条款，盛大在线尊重用户的权利尤其是诉讼的权利，但作为全球运营的公司，盛大在线在尊重用户诉讼权利的同时建议诉讼管辖地法院为盛大在线所在地法院，而用户选择同意合同并使用服务即视为双方对此约定达成了一致意见。
+\n　　用户如有任何需要说明条款的要求，请立即停止使用服务，同时立即致电95105222或发送邮件至info@snda.com，若用户未致电或发送有说明条款要求的邮件至盛大在线而选择同意该协议，则双方在此确认盛大在线已依法履行了根据用户要求对相关条款进行说明的法定义务，盛大在线已给予用户充足的时间与充分的选择权来决定是否缔结本协议。
+\n　　鉴于盛大在线已依法明确了上述条款、履行了格式条款制订方的义务，用户点击同意或下一步，将被视为且应当被视为用户已经完全注意并同意了本协议所有条款尤其是提醒用户注意的条款的合法性及有效性，用户不应当以盛大在线未对格式条款以合理方式提醒用户注意，或未根据用户要求尽到说明义务为理由而声称或要求法院或其它任何第三方确认相关条款非法或无效。
+\n
+\n盛大24小时统一客服电话：95105222（免长途费）"
+</string>
+
+</resources>

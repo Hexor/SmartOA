@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/footer_organize"
+	android:orientation="horizontal"
+	android:visibility="gone" style="@style/ToolBar_Bottom"	>
+	<ImageView android:id="@+id/multi" android:src="@drawable/multisel"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/cancelmulti" android:src="@drawable/deselectall"
+		style="@style/IconButton2" />
+	<ImageView android:id="@+id/delete" android:src="@drawable/delete"
+		style="@style/IconButton2" />	
+	<ImageView android:id="@+id/hide" android:src="@drawable/hide"
+		style="@style/IconButton2" />
+		<ImageView android:id="@+id/showhide" android:src="@drawable/showhide"
+		style="@style/IconButton2" />	
+</LinearLayout>

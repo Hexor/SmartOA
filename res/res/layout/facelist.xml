@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/albumdiwen" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/title_bar"
+        style="@style/ToolBar_Top" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal"  >
+
+            <Button
+                android:id="@+id/allconfirm"
+                style="@style/TopButton_Left"
+                android:text="确认全部"               
+                android:visibility="gone" >
+            </Button>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="4.0dip"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="150dip"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:ellipsize="middle"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="18.0sp" />
+
+            <ImageButton
+                android:id="@+id/pic"
+               style="@style/TopButton_Right"
+               android:src="@drawable/pic"               
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/face"
+                style="@style/TopButton_Right"
+                 android:src="@drawable/face"               
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--
+     	<com.snda.album.widget.PageScrollView
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:scrollbars="none" android:clickable="true" android:layout_below="@id/title_bar">
+		<com.snda.album.widget.PageEmbedGridView android:id="@+id/albumgrid" 
+		 android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		 android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip" android:numColumns="3" />
+	</com.snda.album.widget.PageScrollView>
+    -->
+
+    <GridView  	android:layout_below="@id/title_bar" android:verticalSpacing="3dp"
+        android:id="@+id/albumgrid" android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      	android:stretchMode="columnWidth"
+        android:numColumns="3"
+       />
+
+    <com.snda.album.widget.CoverFlow        android:id="@+id/coverflow"
+        android:layout_width="fill_parent"
+        android:layout_height="300.0dip"
+       	android:layout_below="@id/title_bar"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:visibility="gone" />
+
+    <include layout="@layout/face_toolbar" />
+
+</RelativeLayout>

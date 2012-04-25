@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_gellaries">
+    	<item>本周</item>
+    	<item>上周</item>
+    	<item>两周前</item>
+    	<item>三周前</item>
+    	<item>本月早些时候</item>
+    	<item>上月</item>
+    	<item>两个月前</item>
+    	<item>今年更早</item>
+    	<item>更早</item>
+    	<item>BUG</item>
+    </string-array>
+    
+</resources>

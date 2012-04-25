@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/title_bar"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<TextView android:id="@+id/title" android:background="@color/halfgray"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_centerInParent="true" android:ellipsize="marquee"
+		android:singleLine="true" android:textColor="@android:color/white"
+		android:textSize="18.0sp" />
+	<!--<ListView android:id="@+id/potential_list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:dividerHeight="1dip" android:divider="@drawable/line"
+		android:cacheColorHint="#00000000" />
+	 <TextView android:id="@+id/bottomtitle" android:background="@color/halfgray" 
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_centerInParent="true" android:ellipsize="marquee"
+		android:gravity="center" android:singleLine="true" android:textColor="@android:color/white"
+		android:textSize="18.0sp"/> -->
+</LinearLayout>

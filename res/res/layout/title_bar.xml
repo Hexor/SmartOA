@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/title_bar" style="@style/ToolBar_Top"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- <ImageView android:id="@+id/left_button" android:src="@drawable/ic_menu_back"
+		style="@style/IconButton" /> -->
+	<RelativeLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1.0">
+		<ProgressBar android:id="@+id/waiting_bar"
+			android:paddingLeft="6.0dip" android:visibility="gone"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_centerVertical="true" style="@style/MyProgressBar"/>
+			<!-- style="@android:style/Widget.ProgressBar.Small" /> -->
+		<TextView android:id="@+id/title"
+			android:text="@string/albumai"
+			style="@style/TitleCenterText"/>
+	</RelativeLayout>
+	<ImageButton android:id="@+id/right_button" android:src="@drawable/list" style="@style/TopButton_Right"/>
+	<ImageButton android:id="@+id/right_buttong" android:src="@drawable/grid" style="@style/TopButton_Right" android:visibility="gone"/>	
+</RelativeLayout>

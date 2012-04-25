@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical" >
+
+    
+    <LinearLayout android:id="@+id/title_bar" 
+        style="@style/ToolBar_Top">	
+	
+   	    <RelativeLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1.0">
+	
+			<Button android:id="@+id/feedback_return_button" 
+		   		android:text="取消"
+		   		style="@style/TopButton_Left"	
+		   		/>					
+			<TextView android:text="@string/feedback"
+				style="@style/TitleCenterText"/>
+		
+			<Button android:id="@+id/feedback_send_button" 
+		   		android:text="发送"
+		   		style="@style/TopButton_Right"	
+		   		/>
+		</RelativeLayout> 	    			
+	</LinearLayout>
+    
+        
+    <EditText android:id="@+id/feedback_suggestion"
+           android:layout_marginTop="10dp"
+	       android:layout_marginLeft="10dp"
+	       android:layout_marginRight="10dp"
+	       android:layout_width="match_parent"
+	       android:layout_height="200dp"
+	       android:gravity="top|left"
+	       android:inputType="textMultiLine"
+	       android:maxLength="200"
+	       style="@style/FeedbackEditText"
+	       android:scrollHorizontally="false"/>
+ 
+</LinearLayout>
